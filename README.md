@@ -5,6 +5,19 @@ Bu proje, FLO veri seti üzerinde RFM (Recency, Frequency, Monetary) analizi uyg
 
 ---
 
+# FLO Müşteri Segmentasyonu ve RFM Analizi
+
+## RFM Segmentasyon Matrisi 
+Kod içerisindeki `seg_map` kurallarının görselleştirilmiş halidir. Dikey eksen **Recency (Yenilik)** skorunu, yatay eksen ise **Frequency (Sıklık)** skorunu temsil eder. Pazarlama stratejileri bu matrise göre belirlenir:
+
+| Recency \ Frequency | F1 (En Az) | F2 | F3 | F4 | F5 (En Sık) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **R5 (En Yeni)** | Yeni Müşteriler | Şöhret Peşinde | Şöhret Peşinde | Şanlılar | Şanlılar |
+| **R4** | Potansiyelliler | Şöhret Peşinde | Şöhret Peşinde | Sadıklar | Sadıklar |
+| **R3** | Uyumak Üzereler | Uyumak Üzereler | İlgilenilmeliler | Sadıklar | Sadıklar |
+| **R2** | Uykudalar | Uykudalar | Riskteler | Riskteler | Kaybedilemezler |
+| **R1 (En Eski)** | Uykudalar | Uykudalar | Riskteler | Riskteler | Kaybedilemezler |
+
 ## Veri İşleme Akışı (Data Pipeline)
 Verinin ham halinden hedef kitle listelerine (CSV) dönüşüm süreci aşağıdaki mimariyle işler:
 
@@ -38,3 +51,20 @@ Verinin ham halinden hedef kitle listelerine (CSV) dönüşüm süreci aşağıd
 ┌────────────────────────────┐   ┌────────────────────────────┐
 │ yeni_marka_hedef_müşteri.csv│   │ indirim_hedef_müşteri_ids.csv│
 └────────────────────────────┘   └────────────────────────────┘
+```
+
+---
+
+### Kurulum ve Kullanım
+Not: Scriptin hatasız çalışabilmesi için flo_data_20k.csv dosyasının betik ile aynı çalışma dizininde (working directory) bulunması gerekmektedir.
+
+### Gereksinimler
+* Python 3.x
+* pandas
+* datetime
+
+### Çalıştırma
+Projeyi yerel ortamınızda çalıştırmak için terminal üzerinden aşağıdaki komutu kullanabilirsiniz:
+
+```bash
+python CustomerSegmentationProject.py
