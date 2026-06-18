@@ -3,10 +3,6 @@
 ## Proje Özeti
 Bu proje, FLO veri seti üzerinde RFM (Recency, Frequency, Monetary) analizi uygulayarak çok kanallı (omnichannel) müşteri tabanını segmentlere ayıran bir veri bilimi uygulamasıdır. Temel amaç, online ve offline alışveriş verilerini entegre ederek kural tabanlı bir segmentasyon modeli oluşturmak ve önceden belirlenmiş iş kurallarına göre hedeflenen pazarlama kampanyaları için müşteri ID listeleri üretmektir.
 
----
-
-# FLO Müşteri Segmentasyonu ve RFM Analizi
-
 ## RFM Segmentasyon Matrisi 
 Kod içerisindeki `seg_map` kurallarının görselleştirilmiş halidir. Dikey eksen **Recency (Yenilik)** skorunu, yatay eksen ise **Frequency (Sıklık)** skorunu temsil eder. Pazarlama stratejileri bu matrise göre belirlenir:
 
