@@ -1,4 +1,3 @@
-# CustomerSegmentation
 # FLO Customer Segmentation with RFM Analysis
 
 ## Proje Özeti
