@@ -53,6 +53,7 @@ Verinin ham halinden hedef kitle listelerine (CSV) dönüşüm süreci aşağıd
 
 ### Kurulum ve Kullanım
 Not: Scriptin hatasız çalışabilmesi için flo_data_20k.csv dosyasının betik ile aynı çalışma dizininde (working directory) bulunması gerekmektedir.
+Müşteri segmentasyon yöntemleri, farklı sistemler için düzenlenebilir ve uygulanabilir.
 
 ### Gereksinimler
 * Python 3.x
