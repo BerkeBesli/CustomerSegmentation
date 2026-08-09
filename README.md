@@ -1,4 +1,4 @@
-# Customer Segmentation with RFM Analysis
+# RFM Analizi ile Müşteri Segmentasyonu
 
 ## Proje Özeti
 Bu proje, FLO veri seti üzerinde RFM (Recency, Frequency, Monetary) analizi uygulayarak çok kanallı müşteri tabanını segmentlere ayıran bir veri bilimi uygulamasıdır. Temel amaç, online ve offline alışveriş verilerini entegre ederek kural tabanlı bir segmentasyon modeli oluşturmak ve önceden belirlenmiş iş kurallarına göre hedeflenen pazarlama kampanyaları için müşteri ID listeleri üretmektir.
