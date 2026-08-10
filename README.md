@@ -15,7 +15,7 @@ Kod içerisindeki `seg_map` kurallarının görselleştirilmiş halidir. Dikey e
 | **R1 (En Eski)** | Uykudalar | Uykudalar | Riskteler | Riskteler | Kaybedilemezler |
 
 ## Veri İşleme Akışı (Data Pipeline)
-Verinin ham halinden hedef kitle listelerine (CSV) dönüşüm süreci aşağıdaki mimariyle işler:
+Verinin ham halinden hedef kitle listelerine dönüşüm süreci aşağıdaki mimariyle işler:
 
 ```text
 [Ham Veri: flo_data_20k.csv]
